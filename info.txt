@@ -1,0 +1,59 @@
+==================== Basic Commands ==========================================================
+
+ls                   : list directory                       ls .
+dir                  : list directory (windows)             dir .
+touch                : create or modify files               cat greetings.py
+cat                  : display content of a text file       cat greetings.py
+mkdir                : make directory (folder)              mkdir python-demo
+rmdir                : remove directory (folder)            rmdir python-demo
+mv                   : rename or move files / directory     mv main.py greetings.py
+rename               : rename file / directory (windows)    rename main.py greetings.py
+rm                   : remove file / directory              rm greetings.py
+del                  : remove file(windows)                 del greetings.py\
+cp                   : copy file / folder                   cp greetings.py main.py
+copy                 : copy file (windows)                  copy greetings.py main.py
+clear                : clear the screen(git bash)           clear
+cls                  : clear screen (cmd)                   cls
+cd                   : change directory                     cd Desktop/python-demo
+
+==================== Directory Structure ====================================================
+
+root directory      / (unix)       C:\ (windows) mostly
+home directory      ~              C:\Users\(username)
+current directory   .
+parent directory    ..
+
+
+==================== Data types =============================================================
+
+Numeric datatype: (int, float)
+    int: Numbers without decimal part                   5
+    float: Numbers with decimal part                    2.3
+
+Strings:
+    characters                                          'Hello'
+                                                        "Hello"
+                                                        '''multiline declaration'''
+                                                        """multiline declaration"""
+Collections:
+    list:
+        collection of items                                 [1, 2, 'one', 'hello']
+
+    tuple:
+        closed collection of items(unmodifyable list)       (1, 2, 'one', 'hello')
+
+    set:
+        distinct collection of items                        {1, 2, 'one', 'hello'}
+
+    dict:
+        dictionary: key value pair of items                 {'name': 'Henry', 'One': 1}
+
+
+======================== Variables =========================================================
+
+Names of items
+    number = 2.5
+    user = {'username': 'xero', password: 'secret'}
+
+    don'ts (even tho its syntactically right)
+        number=2.4
