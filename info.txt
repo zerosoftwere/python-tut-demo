@@ -57,3 +57,8 @@ Names of items
 
     don'ts (even tho its syntactically right)
         number=2.4
+
+Obtaining variable info
+    type(variable_name): the variable type                       type(number)
+    dir(variable_type): set of operations on the variable_type   dir(str)
+    help(variable_type): documentation on the variable_type      help(str)
