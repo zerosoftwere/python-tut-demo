@@ -55,10 +55,41 @@ Names of items
     number = 2.5
     user = {'username': 'xero', password: 'secret'}
 
-    don'ts (even tho its syntactically right)
+    dont's (even tho its syntactically right)
         number=2.4
 
 Obtaining variable info
-    type(variable_name): the variable type                       type(number)
-    dir(variable_type): set of operations on the variable_type   dir(str)
-    help(variable_type): documentation on the variable_type      help(str)
+    type(variable_name): the variable type                                       type(number)
+    dir(variable_type): set of operations on the variable_type                   dir(str)
+    help(variable_type): documentation on the variable_type                      help(str)
+    help(variable_type.operator): documentation of a specific variable function  help(str.index)
+
+===================== Mathmatical operator  ================================================
++    -     *   /     //    %    **
+
+==================== Relational Operators  =================================================
+>     <    <=     >=     !=     ==
+
+==================== Logical Operators =====================================================
+and not or
+
+==================== Control Statement =====================================================
+if    ,    if    else   ,   if   elif   else
+for     while
+
+==================== inbuilt function ======================================================
+range                         return a (list) of number                              range(10)     range(2, 10),    range(0, 10, 2)
+len                           return length of an item(dict, set, str, list, tuple)  len(L)
+chr                           convert a number to character representation           chr(66)
+ord                           convert a character to its number representation       ord('A')
+
+==================== datatype conversion ===================================================
+str                         convert to string representation                         str(4), str(Flase)
+int                         convert to an integer                                    int(True), int('56'), int(34.7)
+float                       convert to float                                         float('34.5')
+enumerate                   enlist items in tuple pair (index and item)              enumerate(L)
+zip                         creates a list of tuple pair items                       zip(L1, L2)
+list                        convert generators to list                               list(range(10))
+set                         convert generator to a set
+tuple    
+del                         delete a variable                                        del l, del user['username']
