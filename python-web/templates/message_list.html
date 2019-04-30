@@ -1,0 +1,10 @@
+{%extends 'layout.html'%}
+
+{%block content%}
+<h2>Messages</h2>
+<ul class="list-group">
+ {% for m in messages %}
+    <li class="list-group-item"> <span class="badge">{{m.email}}</span>{{m.message}}</li>
+ {% endfor %}
+</ul>
+{%endblock%}

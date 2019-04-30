@@ -1,0 +1,3 @@
+protocol://ip/domain_name:port
+
+http://127.0.0.1:5000/ or http://localhost:5000 or localhost:5000

@@ -43,7 +43,7 @@ def max_of_two_1(x, y):
 def max_of_two_2(x, y):
     return x if x > y else y
 
-# function that finds the max of two numbers 
+# function that finds the max of two numbers
 def max_of_three_2(x, y, z):
     return max_of_two_2(max_of_two_2(x, y), z)
 
@@ -67,6 +67,15 @@ def reverse_string(text):
     for c in text:
         result.insert(0, c)
     return ''.join(result)
+
+def reverse_string_2(text):
+    return text[::-1]
+
+def reverse_string_3(text):
+    result = ''
+    for c in text:
+        result = c + result
+    return result
 
 # function that finds the n!
 def factorial(n):
@@ -96,7 +105,7 @@ def count_upper_lower_case(text):
 ##########################################################
 print(sum( [8, 2, 3, 0, 7] ))
 print(mult( [8, 2, 3, -1, 7] ))
-print(reverse_string('1234abcd'))
+print(reverse_string_3('1234abcd'))
 print(factorial(5))
 print(check_range(18, 6, 12))
 print(count_upper_lower_case('The quick Brow Fox'))
